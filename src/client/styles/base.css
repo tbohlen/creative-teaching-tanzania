@@ -1,0 +1,28 @@
+:root {
+    --black: #000;
+    --white: #fff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: 12px Helvetica, Arial, sans-serif;
+}
+
+a.button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    width: 80%;
+    display: block;
+    font-size: 60px;
+    margin: 0px;
+}
+
+h2 {
+    display: block;
+}
