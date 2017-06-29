@@ -8,7 +8,7 @@ function Footer() {
                 <a href="http://www.healinternational.org">
                     <img src="/images/heal.png" className={ styles.logo } />
                 </a>
-                <a href="http://www.gdaymath.com/courses">
+                <a href="http://www.theglobalmathproject.org/gmw">
                     <img src="/images/exploding-dots.png" className={ styles.explodingDotsLogo } />
                 </a>
                 <a href="http://www.beaglelearning.com">
