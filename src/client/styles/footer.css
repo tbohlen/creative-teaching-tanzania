@@ -33,7 +33,7 @@
 
 .logo:hover {
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
-    transform: translate(0px, -8px);
+    transform: translate(0px, -2px);
 }
 
 .beagleLogo {
@@ -42,6 +42,7 @@
 
 .explodingDotsLogo {
     composes: logo;
-    padding-top: 20px;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
     height: 50px;
 }
