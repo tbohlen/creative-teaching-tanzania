@@ -19,7 +19,7 @@ function Materials(props) {
                     HIV remains a threat to human lives globally. But we understanding the desease. If we work together, we can reduce its threat. Bert Jacobs and Damien Solomon of HEAL International taught about HIV transmission and treatment.
                 </p>
                 <p className={ styles.content }>
-                    All HEAL materials are available online at <a href="http://www.healinternational.org/materials">www.healinternational.org/materials</a>.
+                    All HEAL materials are available online at <a href="http://www.healinternational.org">www.healinternational.org</a>.
                 </p>
                 <h2 className={ styles.subheader }>Leadership: Sharing Your Values</h2>
                 <p className={ styles.content }>

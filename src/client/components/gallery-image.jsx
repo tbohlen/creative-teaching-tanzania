@@ -4,14 +4,14 @@ import styles from "../styles/gallery-image.css";
 
 function GalleryImage(props) {
     return (
-        <a href={ props.url } className={ styles.imageLink }>
-            <img src={ props.url } className={ styles.image } />
+        <a href={ `/images/${props.fileName}` } className={ styles.imageLink }>
+            <img src={ `/images/small/${props.fileName}` } className={ styles.image } />
         </a>
     );
 }
 
 GalleryImage.propTypes = {
-    url: PropTypes.string.isRequired,
+    fileName: PropTypes.string.isRequired,
 };
 
 export default GalleryImage;
