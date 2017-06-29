@@ -1,43 +1,19 @@
 .wrapper {
+    flex: 1 0 auto;
     margin: auto;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-}
-.titleWrapper {
-    width: 80%;
-}
-
-.logos {
     width: 100%;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.logo {
-    height: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.beagleLogo {
-    composes: logo;
-    height: 150px;
-}
-
-.explodingDotsLogo {
-    composes: logo;
-    padding-top: 20px;
-    height: 120px;
+.titleWrapper {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 800px;
 }
