@@ -10,10 +10,21 @@
     box-sizing: border-box;
     padding-left: 40px;
     padding-right: 40px;
+    color: black;
 }
 
 .titleWrapper {
     width: 100%;
     max-width: 1024px;
     min-width: 800px;
+}
+
+.background {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.5;
 }

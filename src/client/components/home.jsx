@@ -4,6 +4,7 @@ import styles from "../styles/home.css";
 function Home(props) {
     return (
         <div className={ styles.wrapper }>
+            <img className={ styles.background } src="/images/workshop-8.png"/>
             <div className={ styles.titleWrapper }>
                 <h1>Exploding Dots</h1>
                 <h1>Science Leadership</h1>
