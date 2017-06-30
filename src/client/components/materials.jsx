@@ -31,7 +31,10 @@ function Materials(props) {
                     <li>What teaching methods can you use to best achieve these outcomes?</li>
                 </ol>
                 <p className={ styles.content }>
-                    We think its valuable for everyone to regularly spend some time thinking about these questions. If you would like to use a similar process with your community, school, or students, you can start with <a href="/documents/leadership.pdf">our syllabus</a>.
+                    We think its valuable for everyone to regularly spend some time thinking about these questions. If you would like to use a similar process with your community, school, or students, you can start with <a href="/documents/leadership-syllabus.pdf">our syllabus</a>.
+                </p>
+                <p>
+                    We have collected <a href="/documents/learning-techniques.pdf">a list of student-focused teaching strategies.</a> Take a look at our list to find strategies for your classroom.
                 </p>
             </div>
         </div>
